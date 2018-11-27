@@ -1,0 +1,11 @@
+name: "test"
+
+channels:
+    - [sl, sensor, 0, 1, 0.1]
+    - [sr, sensor, 0, 1, 0.1]
+    - [m, motor, -1, 1, 0.1]
+
+files:
+    - ./traj_left.csv
+    - ./traj_right.csv
+    
