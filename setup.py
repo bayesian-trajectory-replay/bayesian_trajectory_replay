@@ -6,8 +6,13 @@ from setuptools import setup, find_packages
 from distutils.extension import Extension
 
 setup(name = 'bayesian_trajectory_replay',
-	version = '0.1',
+	version = '1.0.0',
 	description = 'Non-parametric Bayesian learning of robot behaviors from demonstration',
+	long_description =
+		'''This repository contains the Python/Cython core of our work on non-parametric Bayesian learning of robot behaviors from demonstration.
+		Stéphane Magnenat and Francis Colas.
+		Copyright (c) 2011-2018 ETH Zurich.
+		This work was mostly done at the Autonomous Systems Lab (http://www.asl.ethz.ch/).''',
 	classifiers = [
 		'Development Status :: 5 - Production/Stable',
 		'Intended Audience :: Science/Research',
@@ -17,7 +22,6 @@ setup(name = 'bayesian_trajectory_replay',
 		'Programming Language :: Python :: 2 :: Only',
 		'Topic :: Scientific/Engineering :: Artificial Intelligence'
 	],
-	long_description = open('README.md').read(),
 	url = 'https://github.com/bayesian_trajectory_replay/bayesian_trajectory_replay',
 	author = 'Stéphane Magnenat and Francis Colas',
 	author_email = 'francis.colas@inria.fr',
