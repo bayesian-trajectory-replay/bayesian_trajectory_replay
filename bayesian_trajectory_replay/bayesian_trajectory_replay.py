@@ -13,7 +13,7 @@ import sys
 from btr_helper_temporal import tau_update_temporal
 
 def load_obs_function(name = 'Gaussian'):
-	""" Load one of two observation models, either 'Gaussian' (default) or 'Cauchy'. Must be called before creating an BayesianTrajectoryReplay object """
+	""" Load one of two observation models, either 'Gaussian' (default) or 'Cauchy' """
 	global tau_update_obs
 	if name == 'Gaussian':
 		from btr_helper_gaussian import tau_update_obs

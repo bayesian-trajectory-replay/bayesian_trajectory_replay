@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# kate: replace-tabs off; indent-width 4; indent-mode normal
+# vim: ts=4:sw=4:noexpandtab
+
 import csv
 import numpy as np
 import sys

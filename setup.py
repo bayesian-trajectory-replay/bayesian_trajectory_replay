@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# kate: replace-tabs off; indent-width 4; indent-mode normal
+# vim: ts=4:sw=4:noexpandtab
+
 from setuptools import setup, find_packages
 from distutils.extension import Extension
 
