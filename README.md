@@ -14,7 +14,7 @@ You can install using `pip` with this command:
 
 ## By hand
 
-You can compile and install the package with `pip install .` in the this directory.
+You can compile and install the package with `python2 -m pip install .` in the this directory.
 
 # Test
 
