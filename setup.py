@@ -5,8 +5,8 @@
 from setuptools import setup, find_packages
 from distutils.extension import Extension
 
-setup(name = 'bayesian_trajectory_replay',
-	version = '1.0.0',
+setup(name = 'bayesian-trajectory-replay',
+	version = '1.0.1',
 	description = 'Non-parametric Bayesian learning of robot behaviors from demonstration',
 	long_description =
 		'''This repository contains the Python/Cython core of our work on non-parametric Bayesian learning of robot behaviors from demonstration.
@@ -22,7 +22,7 @@ setup(name = 'bayesian_trajectory_replay',
 		'Programming Language :: Python :: 2 :: Only',
 		'Topic :: Scientific/Engineering :: Artificial Intelligence'
 	],
-	url = 'https://github.com/bayesian_trajectory_replay/bayesian_trajectory_replay',
+	url = 'https://github.com/bayesian-trajectory-replay/bayesian_trajectory_replay',
 	author = 'Stéphane Magnenat and Francis Colas',
 	author_email = 'francis.colas@inria.fr',
 	license = 'BSD',
